@@ -1,0 +1,6 @@
+﻿in myVar place "smush"
+writel myVar
+open toybox tb1
+into tb1 push "a"
+into tb1 push "b"
+loop through tb1 and writel
